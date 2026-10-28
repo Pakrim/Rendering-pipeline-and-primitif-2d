@@ -1,0 +1,233 @@
+{
+  "name": "Rumah Gadang -- schematic floor plan (traced from a resident's building)",
+  "units": "metres",
+  "note": "y is UP in this file (survey convention). plan.mjs flips it to screen y-down. Origin (0,0) = bottom-left of the bounding box that includes the anjuang (left) and the entrance stair (bottom), so all coordinates are non-negative. Dimensions read from the source drawing; stair size (1.0 x 1.3 m) is an estimate.",
+  "scale_px_per_m": 50,
+  "origin_m": [
+    1,
+    1
+  ],
+  "polylines": [
+    {
+      "id": "outer_wall",
+      "category": "wall",
+      "closed": true,
+      "points": [
+        [
+          0,
+          3.6
+        ],
+        [
+          2.4,
+          3.6
+        ],
+        [
+          2.4,
+          1.3
+        ],
+        [
+          14.1,
+          1.3
+        ],
+        [
+          14.1,
+          8.7
+        ],
+        [
+          2.4,
+          8.7
+        ],
+        [
+          2.4,
+          6.3
+        ],
+        [
+          0,
+          6.3
+        ]
+      ]
+    },
+    {
+      "id": "row_wall_kamar",
+      "category": "cella",
+      "closed": false,
+      "points": [
+        [
+          2.4,
+          6.3
+        ],
+        [
+          14.1,
+          6.3
+        ]
+      ]
+    },
+    {
+      "id": "partition_x5_5",
+      "category": "cella",
+      "closed": false,
+      "points": [
+        [
+          5.5,
+          1.3
+        ],
+        [
+          5.5,
+          8.7
+        ]
+      ]
+    },
+    {
+      "id": "partition_x8_4",
+      "category": "cella",
+      "closed": false,
+      "points": [
+        [
+          8.4,
+          6.3
+        ],
+        [
+          8.4,
+          8.7
+        ]
+      ]
+    },
+    {
+      "id": "partition_x11_3",
+      "category": "cella",
+      "closed": false,
+      "points": [
+        [
+          11.3,
+          6.3
+        ],
+        [
+          11.3,
+          8.7
+        ]
+      ]
+    },
+    {
+      "id": "partition_anjuang",
+      "category": "cella",
+      "closed": false,
+      "points": [
+        [
+          2.4,
+          3.6
+        ],
+        [
+          2.4,
+          6.3
+        ]
+      ]
+    },
+    {
+      "id": "entrance_stair",
+      "category": "stair",
+      "closed": true,
+      "points": [
+        [
+          12.1,
+          0
+        ],
+        [
+          13.1,
+          0
+        ],
+        [
+          13.1,
+          1.3
+        ],
+        [
+          12.1,
+          1.3
+        ]
+      ]
+    },
+    {
+      "id": "entrance_door",
+      "category": "shrine",
+      "closed": false,
+      "points": [
+        [
+          12.1,
+          1.3
+        ],
+        [
+          13.1,
+          1.3
+        ]
+      ]
+    },
+    {
+      "id": "axis_ns",
+      "category": "axis",
+      "closed": false,
+      "points": [
+        [
+          12.6,
+          0
+        ],
+        [
+          12.6,
+          8.7
+        ]
+      ]
+    },
+    {
+      "id": "axis_ew",
+      "category": "axis",
+      "closed": false,
+      "points": [
+        [
+          0,
+          5
+        ],
+        [
+          14.1,
+          5
+        ]
+      ]
+    }
+  ],
+  "silhouette": {
+    "id": "footprint",
+    "category": "wall",
+    "points": [
+      [
+        0,
+        3.6
+      ],
+      [
+        2.4,
+        3.6
+      ],
+      [
+        2.4,
+        1.3
+      ],
+      [
+        14.1,
+        1.3
+      ],
+      [
+        14.1,
+        8.7
+      ],
+      [
+        2.4,
+        8.7
+      ],
+      [
+        2.4,
+        6.3
+      ],
+      [
+        0,
+        6.3
+      ]
+    ]
+  },
+  "lab3_note": "Salinan Lab 3 dari myplan.json: kategori room dipetakan ke cella dan door ke shrine agar cocok dengan palet lima kategori modul; geometri, skala, dan origin tidak berubah."
+}

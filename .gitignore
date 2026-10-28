@@ -5,33 +5,9 @@ node_modules/
 out/*
 !out/plan_scratch.ppm
 !out/diff.png
-
 # Artefak sementara
 *.log
 plan_three.ppm
-
-# Instruksi agent AI — bukan karya mahasiswa
-AGENT_LAB1_MODUL2.md
-AGENT_LAB3.md
-AGENTS.md
-LAB2_AGENT.md
-LAPORAN_LAB3.md
-
-# Tooling lokal
-.opencode/
-.antigravity/
-
+report/
 # Materi kuliah mentah
 module2.txt
-
-# Referensi pribadi
-myplan.jpg
-
-# Bukti otomasi — cukup di laporan, tidak perlu di repo
-docs/publish_instructions.md
-docs/reproducibility.md
-docs/export_test.md
-docs/browser_evidence.json
-docs/
-
-web/

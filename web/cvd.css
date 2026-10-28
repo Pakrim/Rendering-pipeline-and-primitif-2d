@@ -1,0 +1,8 @@
+/* Lab 3 -- colour-vision-deficiency simulation.
+ * The filter itself lives in index.html as an <filter> element. These selectors
+ * apply it to the canvas and the legend together, so the swatches and the
+ * drawing are judged under the same transform. */
+body.cvd-deuteranopia #c,
+body.cvd-deuteranopia #legend {
+  filter: url(#deuteranopia);
+}
